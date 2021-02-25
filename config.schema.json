@@ -1,6 +1,6 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
-  "pluginType": "platform",
+  "pluginAlias": "ExampleSwitch",
+  "pluginType": "accessory",
   "singular": true,
   "schema": {
     "type": "object",
@@ -10,6 +10,18 @@
         "type": "string",
         "required": true,
         "default": "Example Dynamic Platform"
+      },
+      "ip": {
+        "title": "IP",
+        "type": "string",
+        "required": true,
+        "default": "0.0.0.0"
+      },
+      "ip2": {
+        "title": "IP3",
+        "type": "string",
+        "required": true,
+        "default": "0.0.0.0"
       }
     }
   }
